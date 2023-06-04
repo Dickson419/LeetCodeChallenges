@@ -1,0 +1,22 @@
+package leetCodeChallenges;
+
+import java.util.HashMap;
+import java.util.Map;
+
+
+public class twoSumMKII {
+    public static int[] findIndicies (int [] nums, int target) {
+        //create a map. Must specify what data type we want to use for out keys. Name it. Initialise it.
+        Map<Integer, Integer> complements = new HashMap<>();
+
+        Integer complementIndex = complements.get(nums[i]);
+
+        for(int i = 0; i < nums.length; i++)
+        {
+
+        }
+
+
+        return nums;
+    }
+}
